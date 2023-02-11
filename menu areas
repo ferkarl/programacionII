@@ -1,0 +1,51 @@
+Algoritmo areas
+	Repetir
+        // mostrar menu
+        Limpiar Pantalla
+		Escribir "	PROGRAMACION II EJERCICIO 2"
+        Escribir "Menú de areas"
+        Escribir "   1. Cuadrado"
+        Escribir "   2. Triangulo"
+        Escribir "   3. Circulo"
+        Escribir "   4. Salir"
+        // ingresar una opcion
+        Escribir "Elija una opción (1-4): "
+        Leer OP
+        // procesar esa opción
+        Segun OP Hacer
+            1:
+                Escribir "AREA DEL CUADRADO"
+				Escribir "ingrse el valor de uno de los lados: "; leer lado
+				area1<- lado*lado
+				Escribir "El are de su cuadrado es: ", area1
+
+            2:
+                Escribir "AREA DEL TRIANGULO"
+				Escribir "ingrese el valor base: ";leer sin saltar base
+				Escribir "ingrese el valor altura: "; leer Sin Saltar altura
+				dato<-base*altura
+				area2<-dato/2
+				Escribir ""
+				Escribir "el area de su triangulo es: ",area2
+				
+			
+            3:
+                Escribir "AREA DEL CIRCULO"
+				Definir pii Como Real
+				pii = 3.1416
+				Escribir "ingrese el valor del radio: "; leer Sin Saltar radio
+				valor<-radio*radio
+				area3<-valor*pii
+				Escribir ""
+				Escribir "el area de su circulo es: ", area3
+
+            4:
+                Escribir "Gracias, vuelva prontos"
+            De otro modo:
+                Escribir "Opción no válida"
+        FinSegun
+        Escribir "Presione enter para continuar"
+        Esperar Tecla
+    Hasta Que OP=4
+	
+FinAlgoritmo
