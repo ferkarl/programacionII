@@ -1,0 +1,22 @@
+Algoritmo ejemplo1
+	// escribir un Algoritmo que permita leer dos valores distintos leerlos y el mayor escribirlo
+	
+	Escribir "	PROGRAMACION II EJERCICIO 1"
+	Escribir ""
+	Escribir "Programa para leer dos valores e imprimir el valor mayor."
+	Repetir
+	Escribir "ingrese el primer valor a verificar: "; leer Sin Saltar a;
+	Escribir "ingrese el segundo valor a verificar: "; leer Sin Saltar b;
+	
+	
+	Si a > b Entonces
+		Escribir "el valor mayor es: ",a
+	SiNo
+		Escribir "el valor mayor es: ",b
+	Fin Si
+	
+	Escribir "desea volver a calcular? (1-si 2-no) "; leer op
+	Hasta Que op == 2
+	
+	
+FinAlgoritmo
