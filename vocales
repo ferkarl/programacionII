@@ -1,0 +1,35 @@
+Algoritmo vocales
+	
+	Definir x Como Entero
+	
+	Definir c Como Caracter
+	
+	x = 1
+	
+	
+	Repetir
+		Escribir "Ingresa una letra"
+		
+		leer c
+		
+		si c == "a" o c == "e" o c == "i" o c == "o" o c == "u" Entonces
+			
+			Escribir "es vocal"
+			
+			si c == "A" o c == "E" o c == "I" o c == "O" o c == "U" Entonces
+				
+				Escribir "es vocal"
+				
+				x=3		
+			FinSi
+			
+		SiNo
+			
+			Escribir "es consonante"
+			
+		FinSi
+		
+		Escribir "desea ingresar otra nota (1-si / 2-no)"; leer sin saltar op
+	Hasta Que op == 2
+		
+FinAlgoritmo
